@@ -42,10 +42,10 @@ spec:
         resources:
           limits:
             cpu: 200m
-            memory: 800Mi
+            memory: 1.2Gi
           requests:
             cpu: 100m
-            memory: 20Mi
+            memory: 600Mi
         volumeMounts:
           - mountPath: /etc/spi/
             name: oauth-config
